@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.angelo.santoro.InfoActivity"
+    tools:showIn="@layout/app_bar_info"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="128dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="31dp"
+        android:text="Autolinee Santoro"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="21dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Autolinee Santoro è un'azienda di trasporto pubblico italiana con sede a Campobasso (CB), la quale gestisce autolinee che collegano piccoli centri del Molise come: Toro, Campodipietra e San Giovanni in Galdo al capoluogo molisano, inoltre garantisce il traffico locale a questi comuni della regione tramite l'ausilio di un parco veicolare composto da 20 vetture."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#E01F25"
+        android:text="&quot;L’unica regola del viaggio è: non tornare come sei partito. Torna diverso.&quot;"
+        android:textStyle="italic"/>
+</LinearLayout>

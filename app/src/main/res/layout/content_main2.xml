@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundhome"
+    android:layout_centerInParent="true">
+
+    <Button
+        android:id="@+id/buttonVai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vai"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/paesi"
+        style="@style/spinner_style"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        style="@style/spinner_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/paesi"
+        android:layout_marginTop="118dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:textColor="#fff"
+        android:text="Partenza:"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:text="Destinazione:"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Santoro</string>
+
+    <string-array name="paesi">
+        <item>Campobasso</item>
+        <item>Campodipietra</item>
+        <item>San Giovanni in Galdo</item>
+        <item>Toro</item>
+    </string-array>
+
+    <string-array name="routes">
+        <item>Home: In questa sezione puoi scegliere la partenza e la destinazione per vedere i relativi orari.</item>
+        <item>Avvisi: In questa sezione vengono mostrati tutti gli avvisi.</item>
+        <item>Prezzi: In questa sezione vengono mostrati i costi tra i vari paesi.</item>
+        <item>Contattaci: Puoi contattarci inviando una semplice email.</item>
+    </string-array>
+
+    <string-array name="legendaOrari">
+        <item>* = un asterisco</item>
+        <item>** = due asterisco</item>
+        <item>*** = tre asterisco</item>
+    </string-array>
+    <string name="title_activity">Santoro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
