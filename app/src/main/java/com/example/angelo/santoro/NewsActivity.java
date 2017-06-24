@@ -28,7 +28,7 @@ import org.json.JSONObject;
 public class NewsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final String REMOTE_ADDRESS = "http://www.angeloparziale.it/servizi/news";
+    private static final String REMOTE_ADDRESS = "https://webservice-nodejs.herokuapp.com/getNews";
     private ArrayAdapter<String> adapter = null;
     private RequestQueue mRequestQueue = null;
     private ListView listView = null;
